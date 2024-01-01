@@ -1,0 +1,8 @@
+[* Subtract two numbers *]
+
+#
+    real num1x, num2x;
+
+    get (num1x, num2x);
+    put (num1x - num2x);
+#

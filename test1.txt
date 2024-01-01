@@ -1,0 +1,17 @@
+function add(a integer, b integer)
+{
+    ret a + b;
+}
+
+# 
+
+integer x, y;
+
+x = 5;
+y = 10;
+
+put (x);
+put (y);
+put (add(x, y));
+
+#

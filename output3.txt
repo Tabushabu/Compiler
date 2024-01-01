@@ -1,0 +1,13 @@
+Assembly Code:
+0: STDIN
+1: POPM 7000
+2: STDIN
+3: POPM 7001
+4: PUSHM 7000
+5: PUSHM 7001
+6: SUB
+7: STDOUT
+
+Symbol Table:
+Identifier: num1x, Memory Address: 7000
+Identifier: num2x, Memory Address: 7001

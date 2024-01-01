@@ -1,0 +1,19 @@
+Assembly Code:
+0: PUSHM 7000
+1: PUSHM 7001
+2: ADD
+3: PUSHI 5
+4: POPM 7002
+5: PUSHI 10
+6: POPM 7003
+7: PUSHM 7002
+8: STDOUT
+9: PUSHM 7003
+10: STDOUT
+11: STDOUT
+
+Symbol Table:
+Identifier: a, Memory Address: 7000
+Identifier: b, Memory Address: 7001
+Identifier: x, Memory Address: 7002
+Identifier: y, Memory Address: 7003

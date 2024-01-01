@@ -1,0 +1,31 @@
+Assembly Code:
+0: PUSHI 0
+1: POPM 7002
+2: PUSHI 1
+3: POPM 7000
+4: STDIN
+5: POPM 7001
+6: LABEL
+7: PUSHM 7000
+8: PUSHM 7001
+9: LES
+10: JUMPZ 12
+11: PUSHM 7002
+12: PUSHM 7000
+13: ADD
+14: POPM 7002
+15: PUSHM 7000
+16: PUSHI 1
+17: ADD
+18: POPM 7000
+19: JUMP 6
+20: LABEL 12
+21: PUSHM 7002
+22: PUSHM 7001
+23: ADD
+24: STDOUT
+
+Symbol Table:
+Identifier: i, Memory Address: 7000
+Identifier: max, Memory Address: 7001
+Identifier: sum, Memory Address: 7002
